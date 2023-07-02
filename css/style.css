@@ -1,0 +1,249 @@
+.header, nav, ul{
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0e0e2c;
+    font-family: Arial, Helvetica,sans-serif;
+}
+.header {
+   margin-top: 30px;
+}
+
+.header-logo img {
+    width: 125px;
+}
+
+ul{
+    gap: 50px;
+}
+
+li {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+a {
+text-decoration: none;
+}
+
+.btn {
+width: 125px;
+height: 35px;
+margin: 10px;
+border: none;
+border-radius: 5px;
+background-color: yellow;
+font-weight:600;
+}
+
+.button-button {
+    background-color: #0e0e2c;
+    color: yellow;
+    border: solid yellow 1px;
+    margin-left: 150px;
+ }
+
+
+
+ .section {
+ display: flex;
+ justify-content: space-around;
+}
+ 
+ .section-container {
+    width: 600px;
+    margin-left: 130px;
+    margin-top: 170px;
+ }
+ .section-container h1{
+     font-size: 55pt;
+     color: white;
+   }
+
+.section-container p {
+    color: white;
+    opacity: 0.5;
+    width: 380px;
+    }
+ 
+    .selection-container-img img{
+    width: 100%;
+    margin-top: 40px;    
+    }
+    
+
+    .section-search {
+        width: 500px;
+        padding: 20px;
+        background-color: #0e0e2c;
+        border: none;
+        margin-top: 30px;
+        color: white;
+        border-radius: 18px;
+        border: solid 1px var(--white-shade-2, #626272);
+    }
+
+    .section-btn {
+        width: 100px;
+        height: 40px;
+        margin-top: 30px;
+        font-weight: 800;
+        background-color: #ffbe0b;
+
+    }
+
+    .main-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-section-text {
+        width: 550px;
+    }
+
+    .main-section-text h2 {
+        font-size: 48px;
+        color: white;
+        line-height: 130%px;
+    }
+
+    .main-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .title-text {
+        width: 180px;
+    }
+
+    hr {
+        width: 0px;
+        height: 90px;
+        margin: 0;
+        margin-right: 70px;
+        margin-left: 50px;
+        opacity: 0.5;
+    }
+
+    .title-text h3 {
+        font-size: 40px;
+        color: #ffbe0b;
+    }
+    
+    .title-text p {
+        font-size: 18px;
+        color: white;
+        opacity: 0.5;
+    }
+
+    .text-title h3 {
+        color: tomato;
+    }
+
+    .section-product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-text {
+        width: 533px;
+        margin: 100px;
+    }
+
+    .product-content h2 {
+        font-size: 55px;
+        color: white;
+        margin-bottom: 130px;
+    }
+
+    .product-text h3 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 130%;
+        color: white;
+        opacity: 0,9;
+    }
+
+    .product-text p {
+        font-size: 15px;
+        color: white;
+        width: 319px;
+        opacity: 0.5;
+        margin-bottom: 50px;    
+        line-height: 180%;    
+    }
+
+    .section-out-perfom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+    }
+
+    .out-perfom-text {
+        width: 533px;
+    }
+
+    .section-out-perfom {
+        font-size: 27px;
+        color: white;
+        display: flex;
+    }
+
+    .out-perfom h2 {
+        margin-left: 200px;
+        margin-top: 300px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .out-perfom-text p {
+        font-size: 18px;
+        opacity: 0.5;
+    }
+
+    .section-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .container-contact h2 {
+        font-size: 48px;
+        color: white;
+    }
+
+    .container-contact p{
+        font-size: 18px;
+        color: white;
+        opacity: 0.5;
+    }
+
+    .contact-btn {
+        margin-top: 25px;
+        background-color: #ffbe0b;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 200px;
+        margin-bottom: 50px;
+    }
+
+    .footer a {
+        color: white;
+    }
+
+    .container-icon img {
+        margin-left: 25px;
+    }
